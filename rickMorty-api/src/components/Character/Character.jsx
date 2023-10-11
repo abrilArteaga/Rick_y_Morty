@@ -9,8 +9,8 @@ export function Character() {
   }, []);
   
   return (
-    <div>
-     <div> 
+    <div class = "fondoColor" > 
+      <div> 
         <div id= "Boton"> 
     <button type="submit">Docs</button>
     <button type="submit">About</button>
