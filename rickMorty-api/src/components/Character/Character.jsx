@@ -29,6 +29,7 @@ export function Character() {
             <h3>{item.name}</h3>
             <p>{item.status}</p>
             <p>{item.origin.name}</p>
+            <a></a>
           </div>
         </li>
       ))}

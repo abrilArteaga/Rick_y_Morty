@@ -17,6 +17,7 @@
 
   }
   .fondoColor{
+    border: 5%;
     background: linear-gradient(#3f3e3f);
     height: 60vw
   }

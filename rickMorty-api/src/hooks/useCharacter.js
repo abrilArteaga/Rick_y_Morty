@@ -7,6 +7,7 @@ export function useCharacter() {
       return fetch("https://rickandmortyapi.com/api/character")
         .then((response) => response.json())
         .then((data) => setAllCharact(data.results));
+       
     }
     return{
         allCharact,
